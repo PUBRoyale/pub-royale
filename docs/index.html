@@ -6,7 +6,7 @@
     <body>
         <div class="video-background">
             <div class="video-foreground">
-                <iframe id="background-video" src="https://www.youtube.com/embed/jce55Z-kVJM?controls=0&showinfo=0&rel=0&autoplay=0&loop=1&enablejsapi=1&iv_load_policy=3&playlist=jce55Z-kVJM" frameborder="0" allowfullscreen></iframe>
+                <iframe id="background-video" src="https://www.youtube.com/embed/jce55Z-kVJM?controls=0&showinfo=0&rel=0&autoplay=0&loop=1&enablejsapi=1&iv_load_policy=3" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
         <script>
@@ -14,6 +14,7 @@
 
             function onYouTubeIframeAPIReady() {
                 player = new YT.Player('background-video', {
+                    loop: true,
                     events: {
                         'onReady': onPlayerReady
                     }
