@@ -22,10 +22,18 @@
   .video-foreground { width: 300%; left: -100%; }
 }
 
-.splash {
+.transparent {
+    background: rgba(0, 0, 0, 0.95);
+    border-radius: 10px;
+}
+
+.splash-box {
     position: relative;
     top: 10%;
-    left: 0;
-    right: 0;
     width: 50%;
+    margin: auto;
+}
+
+.splash-logo {
+    margin: auto;
 }
