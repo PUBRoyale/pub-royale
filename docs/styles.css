@@ -21,3 +21,11 @@
 @media (max-aspect-ratio: 16/9) {
   .video-foreground { width: 300%; left: -100%; }
 }
+
+.splash {
+    position: relative;
+    top: 10%;
+    left: 0;
+    right: 0;
+    width: 50%;
+}
