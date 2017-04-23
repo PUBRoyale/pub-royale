@@ -42,3 +42,9 @@
     height: 200px;
     margin: auto;
 }
+
+.splash-content {
+    font-family: 'Fjalla One', sans-serif;
+    /*font-family: 'Rubik Mono One', sans-serif;*/
+    /*font-family: 'Play', sans-serif;*/
+}
