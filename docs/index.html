@@ -5,9 +5,12 @@
     <body>
         <div class="video-background">
             <div class="video-foreground">
-                <iframe src="https://www.youtube.com/embed/jce55Z-kVJM?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=jce55Z-kVJM" frameborder="0" allowfullscreen></iframe>
+                <iframe id="background-video" src="https://www.youtube.com/embed/jce55Z-kVJM?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=jce55Z-kVJM" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
+        <script>
+            iframe.getElementById('background-video').mute();
+        </script>
         <script>
         (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
             t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
