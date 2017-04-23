@@ -36,7 +36,7 @@
 }
 
 .splash-logo {
-    background: url('https://play.esea.net/images/logo_esea_header.png') no-repeat fixed center;
+    background-image: url('https://play.esea.net/images/logo_esea_header.png');
     background-size: 200px 200px;
     width: 200px;
     height: 200px;
