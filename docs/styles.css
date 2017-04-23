@@ -59,4 +59,5 @@
     position: fixed;
     right: 50px;
     bottom: 50px;
+    pointer-events: all;
 }
