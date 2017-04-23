@@ -10,15 +10,20 @@
             </div>
         </div>
         <script>
-            var player = new YT.Player('background-video', {
-                events: {
-                    'onReady': function() {
-                        console.log("Muting video...");
-                        player.mute();
-                        player.playVideo();
+            var player;
+
+            function onYouTubeIframeAPIReady() {
+                player = new YT.Player('background-video', {
+                    events: {
+                        'onReady': onPlayerReady
                     }
-                }
-            });
+                });
+            }
+
+            function onPlayerReady(event) {
+                player.mute();
+                player.playVideo();
+            }
         </script>
         <script>
         (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
