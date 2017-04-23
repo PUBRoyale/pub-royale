@@ -5,39 +5,9 @@
     <body>
         <div class="video-background">
             <div class="video-foreground">
-                <div id="background-video"></iframe>
+                <iframe src="https://www.youtube.com/embed/1fksc2HB7bE?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=1fksc2HB7bE" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
-        <script>
-             // Load the IFrame Player API code asynchronously.
-            var tag = document.createElement('script');
-            tag.src = "https://www.youtube.com/player_api";
-            var firstScriptTag = document.getElementsByTagName('script')[0];
-            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-            var player;
-            function onYouTubeIframeAPIReady() {
-                player = new YT.Player('background-video', {
-                    videoId: '8tGaQzs_7WM',
-                    playlist: '8tGaQzs_7WM',
-                    controls: 0,
-                    showinfo: 0,
-                    rel: 0,
-                    autoplay: 0,
-                    iv_load_policy: 3,
-                    loop: 1,
-                    enablejsapi: 1,
-                    events: {
-                        'onReady': onPlayerReady
-                    }
-                });
-            }
-
-            function onPlayerReady(event) {
-                player.mute();
-                player.playVideo();
-            }
-        </script>
         <script>
         (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
             t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
