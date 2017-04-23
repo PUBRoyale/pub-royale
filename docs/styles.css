@@ -34,3 +34,10 @@
     margin: auto;
     text-align: center;
 }
+
+.splash-logo {
+    background: url('https://play.esea.net/images/logo_esea_header.png') no-repeat fixed center;
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+}
