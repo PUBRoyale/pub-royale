@@ -38,9 +38,11 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 30px;
     color: white;
+    user-select: none;
+    cursor: default;
 }
 
-.feature-section {
+.feature-section-seasons {
     top: -214px;
     background-image: url(http://i.imgur.com/HBPn2T7.png);
     background-size: 100%;
