@@ -43,7 +43,7 @@ body {
 }
 
 .feature-section-seasons {
-    top: -214px;
+    margin-top: -214px;
     background-image: url(http://i.imgur.com/HBPn2T7.png);
     background-size: 100%;
     position: relative;
