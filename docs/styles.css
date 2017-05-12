@@ -41,6 +41,14 @@ body {
 }
 
 .feature-section {
+    top: -214px;
+    background-image: url(http://i.imgur.com/HBPn2T7.png);
+    background-size: 100%;
+    position: relative;
+    padding-bottom: 42.25%;
+}
+
+.feature-section {
     position: relative;
     padding-bottom: 19.25%;
 }
@@ -57,7 +65,7 @@ body {
 }
 
 .feature-wrapper {
-    
+
     position: absolute;
     width: 50%;
     padding-bottom: 19.25%;
