@@ -42,17 +42,26 @@ body {
     cursor: default;
 }
 
-.feature-section-seasons {
-    margin-top: -214px;
-    background-image: url(http://i.imgur.com/HBPn2T7.png);
+.feature-section {
     background-size: 100%;
     position: relative;
+}
+
+.feature-section.seasons {
+    margin-top: -214px;
+    background-image: url(http://i.imgur.com/HBPn2T7.png);
     padding-bottom: 42.25%;
 }
 
-.feature-section {
-    position: relative;
-    padding-bottom: 19.25%;
+.feature-section.prizes {
+    margin-top: -1px;
+    background-image: url(http://i.imgur.com/F2sbw9Z.png);
+    padding-bottom: 31.25%;
+}
+
+.feature-section.statistics {
+    background-image: url(http://i.imgur.com/x3G19yn.png);
+    padding-bottom: 31.25%;
 }
 
 .feature-description {
